@@ -9,7 +9,7 @@ config({
 connectDatabase();
 
 app.get("/", (req, res) => {
-    res.send("<h1>Working Fine</h1>")
+    res.send("<h1>Working Fine Properly</h1>")
 })
 
 app.listen(process.env.PORT, () => {
